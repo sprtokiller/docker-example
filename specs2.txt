@@ -1,0 +1,6 @@
+Platform: linux
+Architecture: x64
+CPUs: Intel(R) Xeon(R) Processor, Intel(R) Xeon(R) Processor
+Total Memory: 1.89 GB
+Free Memory: 1.57 GB
+Uptime: 0.23 hours
