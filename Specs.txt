@@ -1,6 +1,7 @@
+Hardware Information
 Platform: win32
 Architecture: x64
 CPUs: Intel(R) Core(TM) i5-10505 CPU @ 3.20GHz, Intel(R) Core(TM) i5-10505 CPU @ 3.20GHz, Intel(R) Core(TM) i5-10505 CPU @ 3.20GHz, Intel(R) Core(TM) i5-10505 CPU @ 3.20GHz, Intel(R) Core(TM) i5-10505 CPU @ 3.20GHz, Intel(R) Core(TM) i5-10505 CPU @ 3.20GHz, Intel(R) Core(TM) i5-10505 CPU @ 3.20GHz, Intel(R) Core(TM) i5-10505 CPU @ 3.20GHz, Intel(R) Core(TM) i5-10505 CPU @ 3.20GHz, Intel(R) Core(TM) i5-10505 CPU @ 3.20GHz, Intel(R) Core(TM) i5-10505 CPU @ 3.20GHz, Intel(R) Core(TM) i5-10505 CPU @ 3.20GHz
 Total Memory: 7.72 GB
-Free Memory: 2.39 GB
-Uptime: 0.34 hours
+Free Memory: 1.47 GB
+Uptime: 1.08 hours
