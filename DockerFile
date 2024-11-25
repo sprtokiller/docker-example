@@ -18,3 +18,11 @@ EXPOSE 3000
 
 # Příkaz pro spuštění aplikace
 CMD ["npm", "start"]
+
+
+
+
+
+
+
+#co delas kamo proc nefungujes
