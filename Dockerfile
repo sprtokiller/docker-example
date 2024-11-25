@@ -1,17 +1,20 @@
-# Use the official Node.js image from Docker Hub
-FROM node:18-alpine
+# Use an official Node.js runtime as a base image
+FROM node:18
 
 # Set the working directory inside the container
-WORKDIR /app
+WORKDIR /usr/src/app
 
-# Copy package.json and package-lock.json (if available)
+# Copy the package.json and package-lock.json first to leverage Docker's cache for dependencies
 COPY package*.json ./
 
-# Copy the rest of the application code
+# Install dependencies
+RUN npm install
+
+# Copy the rest of the application files to the container
 COPY . .
 
-# Expose the port the app runs on
+# Expose the port the app will run on
 EXPOSE 3000
 
-# Define the command to run the app
+# Command to run the application
 CMD ["npm", "start"]
