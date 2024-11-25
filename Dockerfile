@@ -1,6 +1,6 @@
 FROM node:14
 
-COPY server.js
+COPY server.js R:\VAP\docker-example\server.js
 
 COPY index.html R:\VAP\docker-example\index.html
 
