@@ -6,6 +6,8 @@ COPY index.html R:\VAP\docker-example\index.html
 
 RUN npm install
 
+RUN npm start
+
 EXPOSE 3000
 
 CMD ["node", "server.js"]
